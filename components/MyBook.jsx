@@ -23,6 +23,7 @@ function MyBook({ color }) {
         <Cover
           Color="bg-orange-300"
           Title={PageText.Cover.head}
+          Content={PageText.Cover.content}
           Footer={PageText.Cover.footer}
           // Image={coverImg}
         />
@@ -100,8 +101,8 @@ function MyBook({ color }) {
 
       {/* End Page */}
       <div>
-        <Cover
-          Color="bg-gray-50"
+        <EndPage
+          Color="bg-gray-200"
           Title={PageText.EndPage.head}
           Footer={PageText.EndPage.footer}
           Content={PageText.EndPage.content}

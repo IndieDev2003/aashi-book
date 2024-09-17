@@ -1,7 +1,7 @@
 const PageText = {
   Cover: {
     head: "Aashi: The Girl I Met On Snapchat",
-    content: "This is our story—a journey that began with a simple connection on Snapchat and blossomed into something beautiful, filled with moments, conversations, and memories that brought us closer with each passing day.",
+    content: "This is our journey that began with a simple connection on Snapchat and blossomed into something beautiful, filled with moments, conversations, and memories that brought us closer with each passing day.",
     footer: "The Beginning of Us",
     tailwindColor: "bg-orange-300",
   },
@@ -49,7 +49,7 @@ const PageText = {
   },
   EndPage: {
     head: "The Beginning of Forever",
-    content: "Thank you for reading our story. This is just the beginning of a lifetime of love, memories, and happiness that Aashi and I will share. Our love story may have started on Snapchat, but it has turned into something so much more. Here’s to forever.",
+    content: "Thank you for being with me, This is just the beginning of a lifetime of love, memories, and happiness that we will share. Our love story may have started on Snapchat, but it has turned into something so much more. Here’s to forever.",
     footer: "To Be Continued...",
     tailwindColor: "bg-gray-200",
   },

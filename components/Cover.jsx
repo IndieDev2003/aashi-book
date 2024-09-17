@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import FrameImg from "@/public/coverFrame.png";
-import cover from "@/public/images/cover.jpg"
+import cover from "@/public/images/cover3.jpg"
 
-const Cover = ({ Color, Title, Footer,Img }) => {
+const Cover = ({ Color, Title, Content,Footer, Img }) => {
   return (
     <div className={`h-full w-full ${Color} z-10 opacity-90`}>
       <div className=" justify-between  opacity-80  -z-[1] absolute">
@@ -19,8 +19,9 @@ const Cover = ({ Color, Title, Footer,Img }) => {
         <h2 className="text-xl w-[200px] font-semibold text-center mt-4 font-mono">
           {`${Title}`}
         </h2>
+        <p className="font-semibold px-14 text-center leading-none">{Content}</p>
 
-        <h3>{Footer}</h3>
+        <h3 className="mt-4">{Footer}</h3>
       </div>
     </div>
   );

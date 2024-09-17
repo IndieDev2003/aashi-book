@@ -10,7 +10,7 @@ html,
 body {
   height: 100%;
   width: 100%;
-  background: url("https://i.pinimg.com/originals/d6/57/d8/d657d8d95b1e9ca81e80e511b3ddd78a.jpg");
+  background: url("https://i.pinimg.com/originals/d6/57/d8/d657d8d95b1e9ca81e80e511b3ddd78a.jpg"); 
   background-position: center center;
   background-size: cover;
   display: flex;
@@ -29,7 +29,7 @@ body {
 }
 
 .page-shadow {
-  box-shadow: 5px 5px 20px black;
+  box-shadow: -5px 5px 20px black;
   border-left:3px solid rgba(0, 0, 0, 0.548);
 }
 .page2-shadow {

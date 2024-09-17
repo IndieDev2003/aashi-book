@@ -5,7 +5,7 @@ import end from "@/public/images/end.jpg";
 
 const EndPage = ({ Color, Title, Footer, Content, Img }) => {
   return (
-    <div className={`h-full w-full ${Color} z-10 opacity-90`}>
+    <div className={`h-full w-full ${Color} z-10 opacity-90 page-shadow`}>
       <div className=" justify-between  opacity-80  -z-[1] absolute">
         <Image src={FrameImg} alt="background-frame" priority={true} />
       </div>
@@ -19,9 +19,9 @@ const EndPage = ({ Color, Title, Footer, Content, Img }) => {
         <h2 className="text-xl w-[200px] font-semibold text-center mt-4 font-mono">
           {/* {`${Title}`} */}
         </h2>
-        <p>{Content}</p>
+        <p className="font-semibold px-14 text-center">{Content}</p>
 
-        <h3>{Footer}</h3>
+        <h3 className="font-bold text-pink-900">{Footer}</h3>
       </div>
     </div>
   );
